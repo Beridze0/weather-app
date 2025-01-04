@@ -1,0 +1,38 @@
+.current-weather{
+    display: flex;
+    padding: 3rem 1rem;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.current-weather-right-side, .current-weather-left-side{
+    border-radius: 0.5rem;
+}
+
+.current-weather-left-side{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--border-color);
+    padding: 2.5rem 6rem 4rem 2rem;
+}
+
+.current-weather-right-side{
+    padding: 1rem 4rem;
+    border: 1px solid var(--border-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.7rem;
+}
+
+.current-weather-detailed-info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.current-weather-detailed-info{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}

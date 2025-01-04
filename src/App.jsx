@@ -1,10 +1,12 @@
 import React from 'react'
-import SearchBar from './components/SearchBar/SearchBar'
+import Header from './components/Header/Header'
+import CurrentWeather from './components/CurrentWeather/CurrentWeather'
 
 const App = () => {
   return (
     <div>
-      <SearchBar />
+      <Header />
+      <CurrentWeather />
     </div>
   )
 }

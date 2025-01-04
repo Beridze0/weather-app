@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3rem 3rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.804);
+}
+
+.header-location span{
+    font-weight: 400;
+}
+
+.header-search-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem; 
+    width: 20%;
+}
+
+.header-search{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 0.3rem;
+    width: 100%;
+}
+
+.header-search-input{
+    border: none;
+    color: var(--text-color);
+    background-color: transparent;
+    outline: none;
+    width: 100%;
+}
