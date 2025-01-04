@@ -38,13 +38,13 @@ const Header = () => {
         setDarkMode(savedMode)
     },[])
 
+
+    
+
   return (
     <div className='header'>
         <div className='header-logo'>
             <h1>Weather App</h1>
-        </div>
-        <div className='header-location'>
-            <h2><span>{searchInput.replace(/^\w/, char => char.toUpperCase())}</span></h2>
         </div>
         <div className='header-search-container'>
             <form onSubmit={handleSubmit} className='header-search'>

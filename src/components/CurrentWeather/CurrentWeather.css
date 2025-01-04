@@ -1,5 +1,11 @@
 .current-weather{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.current-weather-details{
+    display: flex;
     padding: 3rem 1rem;
     gap: 1rem;
     justify-content: center;
