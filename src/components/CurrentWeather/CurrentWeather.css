@@ -15,11 +15,17 @@
     border-radius: 0.5rem;
 }
 
+
+
 .current-weather-left-side{
     display: flex;
     flex-direction: column;
     border: 1px solid var(--border-color);
     padding: 2.5rem 6rem 4rem 2rem;
+}
+
+.current-weather-left-side h2{
+    margin: 1rem 0;
 }
 
 .current-weather-right-side{
